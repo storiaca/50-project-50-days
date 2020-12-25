@@ -26,6 +26,10 @@ body {
   margin: 0;
 }
 
+.h1 {
+  font-size: 4rem;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -60,4 +64,12 @@ body {
   background: url("./xbox.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.split.right::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--right-bg-color);
 }
