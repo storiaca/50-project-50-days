@@ -24,6 +24,7 @@ body {
 h3 {
   color: #fff;
   margin: 10px 0 20px;
+  text-align: center;
 }
 
 .container {
@@ -39,6 +40,7 @@ h3 {
   padding: 10px;
   margin: 0 0 20px;
   font-size: 16px;
+  resize: none;
 }
 
 .tag {
