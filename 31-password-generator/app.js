@@ -8,15 +8,19 @@ const generateEl = document.getElementById("generate");
 const clipboardEl = document.getElementById("clipboard");
 
 clipboardEl.addEventListener("click", () => {
-  const textare = document.createElement("textarea");
+  const textarea = document.createElement("textarea");
   const password = resultEl.innerText;
 
   if (!password) {
     return;
   }
 
-  textare.value = password;
-  document.body;
+  textarea.value = password;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand("copy");
+  textarea.remove();
+  alert("Password copied to clipboard!");
 });
 
 generateEl.addEventListener("click", () => {
