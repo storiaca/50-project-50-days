@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Project</title>
+    <title>Image Carousel</title>
     <!-- <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -13,7 +13,20 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Project Name</h1>
+    <div class="carousel">
+      <div class="image-container" id="imgs">
+        <img src="images/fulvio.jpg" alt="Basket">
+        <img src="images/beach-pexel.jpg" alt="Beach">
+        <img src="images/space.jpeg" alt="Space">
+        <img src="images/wordpress.png" alt="Wordpress">
+      </div>
+      <div class="buttons-container">
+
+        <button id="left" class="btn">Prev</button>
+        <button id="right" class="btn">Next</button>
+      </div>
+
+    </div>
     <script src="./app.js"></script>
   </body>
 </html>
