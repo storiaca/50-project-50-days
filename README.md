@@ -15,3 +15,7 @@
 ## Random user API
 
 <https://randomuser.me/>
+
+## Flat Icon
+
+<https://www.flaticon.com/>
