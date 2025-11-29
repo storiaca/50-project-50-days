@@ -2,7 +2,7 @@
 
 ## Code
 
-https://github.com/bradtraversy/50projects50days
+<https://github.com/bradtraversy/50projects50days>
 
 ## Font Awesome CDN
 
@@ -10,4 +10,8 @@ https://github.com/bradtraversy/50projects50days
 
 ## Github REST API
 
-https://docs.github.com/en/rest/overview/resources-in-the-rest-api
+<https://docs.github.com/en/rest/overview/resources-in-the-rest-api>
+
+## Random user API
+
+<https://randomuser.me/>
