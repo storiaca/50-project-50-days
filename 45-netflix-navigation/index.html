@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Mobile Navigation</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button class="nav-btn open-btn">
+      <i class="fas fa-bars"></i>
+    </button>
+    <img src="./images/Netflix_Logo.png" alt="Logo Netflix" class="logo">
+    <p class="text">Mobile Navigation</p>
+    <div class="nav visible nav-black">
+      <div class="nav visible nav-red">
+        <div class="nav visible nav-white">
+          <button class="nav-btn close-btn"><i class="fas fa-times"></i></button>
+          <img src="./images/Netflix_Logo.png" alt="Logo Netflix" class="logo">
+          <ul class="list">
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Locatinos</a></li>
+            <li><a href="#">Life at Netflix</a></li>
+            <li>
+              <ul>
+                <li><a href="#">Netflix culture memo</a></li>
+                <li><a href="#">Work life balance</a></li>
+                <li><a href="#">Inclusion & diversity</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
