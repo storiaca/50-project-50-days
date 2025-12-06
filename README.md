@@ -19,3 +19,7 @@
 ## Flat Icon
 
 <https://www.flaticon.com/>
+
+## Picsum photos
+
+<https://picsum.photos/>
