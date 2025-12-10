@@ -1,13 +1,25 @@
 const resetBtn = document.getElementById('reset')
 const playBtn = document.getElementById('play')
 const timerEl = document.getElementById('timer')
+const secondsEl = document.getElementById('seconds')
 const root = document.querySelector(':root')
 
 // Initial setup
-const totalSeconds = 190
+let secondsValue = 0
+let totalSeconds = 0
 let playing = false
-let currentSeconds = totalSeconds
+let currentSeconds
 timerEl.innerText = formatTime(totalSeconds)
+
+// Get value from input
+secondsEl.addEventListener('input', (e) => {
+  secondsValue = Number(e.target.value); // <-- convert to number
+  totalSeconds = secondsValue;
+  currentSeconds = secondsValue;
+  timerEl.innerText = formatTime(currentSeconds)
+})
+
+console.log(secondsValue);
 
 // Run the run() function every second
 const timerInterval = setInterval(run, 1000)
