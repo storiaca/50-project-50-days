@@ -11,6 +11,6 @@
   );
   .hand {
     transform-origin: bottom center;
-    transform: rotate(--degrees);
+    transform: rotate(var(--degrees));
   }
 }
