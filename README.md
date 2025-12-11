@@ -23,3 +23,7 @@
 ## Picsum photos
 
 <https://picsum.photos/>
+
+## Emojipedia
+
+<https://emojipedia.org/top-hat>
